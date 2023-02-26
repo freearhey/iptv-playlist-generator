@@ -1,4 +1,4 @@
-export class Playlist {
+class Playlist {
   constructor() {
     this.header = {}
     this.links = []
@@ -9,10 +9,15 @@ export class Playlist {
   }
 }
 
-export class Link {
+class Link {
   constructor(url) {
     this.url = url
   }
+}
+
+module.exports = {
+  Playlist,
+  Link
 }
 
 function generate(links = [], header = {}) {

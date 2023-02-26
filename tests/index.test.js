@@ -1,4 +1,4 @@
-import { Playlist, Link } from '../src/index.js'
+const { Playlist, Link } = require('../src/index.js')
 
 it('can add up two numbers', () => {
   const playlist = new Playlist()
