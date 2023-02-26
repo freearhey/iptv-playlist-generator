@@ -1,0 +1,37 @@
+{
+  "name": "iptv-playlist-generator",
+  "version": "0.1.0",
+  "description": "A basic IPTV playlist generator",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint ./src/**/*.js",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "iptv",
+    "playlist",
+    "generator",
+    "m3u",
+    "m3u8"
+  ],
+  "author": "Arhey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freearhey/iptv-playlist-generator.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "babel-jest": "latest",
+    "eslint": "latest",
+    "jest": "latest"
+  }
+}
