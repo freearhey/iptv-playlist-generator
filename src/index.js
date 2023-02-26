@@ -12,6 +12,9 @@ class Playlist {
 class Link {
   constructor(url) {
     this.url = url
+    this.title = ''
+    this.attrs = {}
+    this.vlcOpts = {}
   }
 }
 
