@@ -1,6 +1,6 @@
 {
   "name": "iptv-playlist-generator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A basic IPTV playlist generator",
   "main": "src/index.js",
   "scripts": {
