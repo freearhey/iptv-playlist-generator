@@ -32,7 +32,7 @@ function generate(links = [], header = {}) {
   }
 
   for (const link of links) {
-    output += `\n#EXTINF:-1`
+    output += `\n#EXTINF:${link.duration}`
     for (const name in link.attrs) {
       const value = link.attrs[name]
       if (value !== undefined) {
