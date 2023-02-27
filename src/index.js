@@ -13,6 +13,7 @@ class Link {
   constructor(url) {
     this.url = url
     this.title = ''
+    this.duration = -1
     this.attrs = {}
     this.vlcOpts = {}
   }
