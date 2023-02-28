@@ -35,7 +35,7 @@ playlist.links.push(link)
 console.log(playlist.toString())
 ```
 
-## Output
+Output:
 
 ```
 #EXTM3U x-tvg-url="https://example.com/epg.xml" custom="value"
